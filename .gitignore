@@ -9,12 +9,12 @@
 /vendor/
 ###< symfony/framework-bundle ###
 
-.idea/
+###> symfony/phpunit-bridge ###
+.phpunit.result.cache
+/phpunit.xml
+###< symfony/phpunit-bridge ###
 
-config/
-
-.env
-
-*.json
-
-*.lock
+###> phpunit/phpunit ###
+/phpunit.xml
+.phpunit.result.cache
+###< phpunit/phpunit ###
